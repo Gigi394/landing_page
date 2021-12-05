@@ -1,0 +1,139 @@
+
+body {
+	background-color: #cccccc;
+	background-image: url('assets/images/tesla2.jpg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+	font-family: 'Readex Pro', sans-serif;
+}
+
+#bandeau {
+	display: flex;
+	justify-content: space-between;
+	margin: 15px;
+}
+
+h1 {
+	margin-left: 60px;
+	font-size: 20px;
+}
+
+.modeles {
+	display: flex;
+	justify-content: center;
+}
+
+.cars {
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 2px 12px;
+	border-radius: 80px;
+	font-size: 15px;
+}
+
+.cars:hover {
+  background-color: darkgrey;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+.items {
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 2px 12px;
+	border-radius: 80px;
+	font-size: 15px;
+}
+
+.items:hover {
+	background-color: darkgrey;
+}
+
+.modele_affiche {
+	display: flex;
+	justify-content: center;
+	margin: 100px;
+	font-size: 50px;
+}
+
+.bas {
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	bottom: 60px;
+	padding: 30px;
+}
+
+.boutons {
+	justify-content: center;
+	display: flex;
+}
+
+.custom {
+	color: white;
+	border: 3px solid gray;
+	border-radius: 80px;
+	background-color: gray;
+	margin: 60px 10px;
+	padding: 10px 60px;
+}
+
+.learn {
+	color: gray;
+	border: 3px solid white;
+	border-radius: 80px;
+	background-color: white;
+	margin: 60px 10px;
+	padding: 10px 60px;
+}
+
+.description {
+	align-content: center;
+}
+
+@media (max-width: 540px) {
+
+body {
+	background-color: #cccccc;
+	background-image: url('assets/images/tesla_resp.jpg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+	h1 {
+		font-size: 30px;
+	}
+
+ .modeles {
+ 	display: none;
+ }
+
+ .items {
+ 	font-size: 30px;
+ }
+
+.modele_affiche {
+	display: flex;
+	justify-content: center;
+	margin: 250px 100px;
+	font-size: 100px;
+}
+
+.bas {
+  	position: absolute;
+	left: 10%;
+	right: 10%;
+	bottom: 60px;
+	padding: 30px;
+  }
+
+  .boutons {
+  	font-size: 30px;
+  	display: -webkit-inline-box
+  }
+}
